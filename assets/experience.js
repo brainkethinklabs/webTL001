@@ -4,15 +4,10 @@
   $$('[data-geo-console]').forEach(shell=>{
     const observer=new IntersectionObserver(async entries=>{if(!entries.some(e=>e.isIntersecting))return;observer.disconnect();try{const module=await import('./map.js');await module.initMap(shell);}catch{$('[data-map-loading]',shell).hidden=true;$('[data-map-fallback]',shell).hidden=false;}},{rootMargin:'150px'});observer.observe(shell);
   });
-  $$('[data-tms-demo]').forEach(demo=>$$('[data-tms-tab]',demo).forEach(button=>button.addEventListener('click',()=>{
-    const key=button.dataset.tmsTab;$$('[data-tms-tab]',demo).forEach(b=>b.setAttribute('aria-pressed',String(b===button)));$$('[data-tms-panel]',demo).forEach(p=>p.hidden=p.dataset.tmsPanel!==key);
-    $('[data-tms-breadcrumb]',demo).textContent={overview:'Resumen',operations:'Operaciones',documents:'Documentos'}[key];
-    $('[data-tms-title]',demo).textContent={overview:'El control empieza con claridad.',operations:'Cada traslado, en perspectiva.',documents:'La información, en su lugar.'}[key];
-  })));
   $$('[data-slider]').forEach(slider=>{
-    const track=$('[data-slider-track]',slider),original=$$('[data-slide]',track),counter=$('[data-slide-counter]',slider),pause=$('[data-slide-pause]',slider),bar=$('.slider-progress span',slider);
-    let slides=original.slice(),index=0,physical=1,timer=null,visible=false,hover=false,focused=false,stopped=false,locked=false,finishTimer=null,progress=null;
-    const canPlay=()=>visible&&motion()&&!document.hidden&&!document.body.classList.contains('modal-open')&&!hover&&!focused&&!stopped&&slides.length>1;
+    const track=$('[data-slider-track]',slider),original=$$('[data-slide]',track),counter=$('[data-slide-counter]',slider),bar=$('.slider-progress span',slider);
+    let slides=original.slice(),index=0,physical=1,timer=null,visible=false,locked=false,finishTimer=null,progress=null;
+    const canPlay=()=>visible&&motion()&&!document.hidden&&!document.body.classList.contains('modal-open')&&slides.length>1;
     function schedule(){clearTimeout(timer);progress?.cancel();slider.dataset.autoRunning=String(canPlay());if(!canPlay())return;progress=bar.animate([{transform:'scaleX(0)'},{transform:'scaleX(1)'}],{duration:5000,fill:'forwards'});timer=setTimeout(()=>advance(1,false),5000);}
     function position(animate=true){track.style.transition=animate&&motion()?'transform 650ms cubic-bezier(.22,.7,.2,1)':'none';track.style.transform=`translate3d(-${physical*100}%,0,0)`;}
     function active(manual=false){
@@ -29,12 +24,9 @@
       if(!slides.length)return;
       const clone=slide=>{const el=slide.cloneNode(true);el.removeAttribute('data-slide');el.dataset.clone='';el.inert=true;el.setAttribute('aria-hidden','true');$$('[data-photo]',el).forEach(a=>{a.removeAttribute('data-photo');a.tabIndex=-1;});return el;};
       track.append(clone(slides.at(-1)),...slides,clone(slides[0]));slider.classList.add('slider-ready');position(false);active();schedule();
-      $$('[data-slide-prev],[data-slide-next],[data-slide-pause]',slider).forEach(b=>b.disabled=slides.length<2);
+      $$('[data-slide-prev],[data-slide-next]',slider).forEach(b=>b.disabled=slides.length<2);
     }
     $('[data-slide-prev]',slider).addEventListener('click',()=>advance(-1));$('[data-slide-next]',slider).addEventListener('click',()=>advance(1));
-    pause.addEventListener('click',()=>{stopped=!stopped;pause.setAttribute('aria-pressed',String(stopped));pause.setAttribute('aria-label',stopped?'Reanudar galería':'Pausar galería');pause.innerHTML=stopped?'▷ <span>Reanudar</span>':'Ⅱ <span>Pausar</span>';if(!stopped){hover=false;focused=false;}schedule();});
-    slider.addEventListener('mouseenter',()=>{hover=true;schedule();});slider.addEventListener('mouseleave',()=>{hover=false;schedule();});
-    slider.addEventListener('focusin',()=>{focused=true;schedule();});slider.addEventListener('focusout',()=>queueMicrotask(()=>{focused=slider.contains(document.activeElement);schedule();}));
     slider.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();advance(e.key==='ArrowRight'?1:-1);}});
     let start=null,swiped=false;const viewport=$('.slider-viewport',slider);
     viewport.addEventListener('pointerdown',e=>{start=[e.clientX,e.clientY];swiped=false;},{passive:true});

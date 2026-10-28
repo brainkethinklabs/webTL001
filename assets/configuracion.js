@@ -12,18 +12,18 @@ window.FACAI_CONFIG = Object.freeze({
     },
     {
       "nombre": "Biochem Technology",
-      "imagen": "assets/clientes/biochem.jpg",
-      "clase": "logo-on-light logo-biochem"
+      "imagen": "assets/clientes/biochem-transparent-v3.webp",
+      "clase": "logo-transparent logo-biochem"
     },
     {
       "nombre": "Importadora Núñez",
-      "imagen": "assets/clientes/importadora-nunez.webp",
-      "clase": "logo-on-light"
+      "imagen": "assets/clientes/importadora-nunez-transparent-v3.webp",
+      "clase": "logo-transparent"
     },
     {
       "nombre": "Milesa",
-      "imagen": "assets/clientes/milesa.png",
-      "clase": "logo-on-dark"
+      "imagen": "assets/clientes/milesa-transparent-v3.webp",
+      "clase": "logo-transparent"
     },
     {
       "nombre": "Simtech",

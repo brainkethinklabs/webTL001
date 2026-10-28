@@ -4,7 +4,6 @@
   const config = window.FACAI_CONFIG || {};
   const whatsapp = /^\d{10,15}$/.test(config.whatsapp || '') ? config.whatsapp : '56948004839';
   const email = config.email || 'tlfacai@outlook.es';
-  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const $ = (selector, scope = document) => scope.querySelector(selector);
   const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)];
   const nav = $('#nav');
@@ -27,24 +26,10 @@
   });
   matchMedia('(min-width: 981px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
 
-  // Explicit preview choice overrides the OS preference for this browser session only.
-  let choice = new URLSearchParams(location.search).get('motion');
-  try { choice = choice || sessionStorage.getItem('facai-motion'); } catch {}
-  let paused = choice === 'on' ? false : choice === 'off' ? true : reducedMotion.matches;
-  function syncMotion() {
-    root.classList.toggle('motion-paused', paused);
-    root.classList.toggle('motion-enabled', !paused);
-    $$('[data-motion]').forEach(button => {
-      button.setAttribute('aria-pressed', String(paused));
-      button.textContent = paused ? 'Activar animaciones' : 'Pausar animaciones';
-    });
-    document.dispatchEvent(new CustomEvent('facai:motion', {detail:{active:!paused}}));
-  }
-  function rememberMotion(){try{sessionStorage.setItem('facai-motion',paused?'off':'on');}catch{}}
-  if(choice === 'on' || choice === 'off') rememberMotion();
-  $$('[data-motion]').forEach(button => button.addEventListener('click', () => { paused = !paused; choice=paused?'off':'on'; rememberMotion(); syncMotion(); }));
-  reducedMotion.addEventListener('change', event => { if(choice)return; paused = event.matches; syncMotion(); });
-  syncMotion();
+  // FACAI's public experience always starts with motion enabled.
+  root.classList.remove('motion-paused');
+  root.classList.add('motion-enabled');
+  try { sessionStorage.removeItem('facai-motion'); } catch {}
   document.addEventListener('visibilitychange', () => root.classList.toggle('page-hidden', document.hidden));
 
   // Real client assets are optional. An empty list keeps clearly labeled sample slots.
@@ -66,14 +51,6 @@
     $$('.clients-title > span').forEach(el => el.textContent = 'CLIENTES');
     $$('.client-note').forEach(el => el.hidden = true);
   }
-  $$('[data-marquee-pause]').forEach(button => button.addEventListener('click', () => {
-    const marquee = $('[data-marquee]', button.closest('.clients'));
-    const stopped = marquee.classList.toggle('paused');
-    button.setAttribute('aria-pressed', String(stopped));
-    button.setAttribute('aria-label', stopped ? 'Reanudar carrusel de clientes' : 'Pausar carrusel de clientes');
-    button.textContent = stopped ? '▷ Reanudar' : 'Ⅱ Pausar';
-  }));
-
   const controllers = new WeakMap();
   const escapeFocus = el => { if (el) el.focus({ preventScroll: true }); };
   $$('[data-quote-form]').forEach(form => {
