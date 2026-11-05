@@ -1,5 +1,4 @@
-// Configuración pública. No colocar claves secretas aquí.
-// rutasEndpoint: URL de servicio OSRM propio o autorizado para producción.
+// Configuración pública. No colocar secretos aquí.
 window.FACAI_CONFIG = Object.freeze({
   "email": "tlfacai@outlook.es",
   "whatsapp": "56948004839",

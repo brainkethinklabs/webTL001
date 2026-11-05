@@ -34,7 +34,7 @@
 
   // Real client assets are optional. An empty list keeps clearly labeled sample slots.
   const clients = Array.isArray(config.clientes) ? config.clientes.filter(client =>
-    typeof client.nombre === 'string' && /^assets\/clientes\/[a-zA-Z0-9_./-]+\.(svg|png|webp|jpg)$/i.test(client.imagen || '') && !client.imagen.includes('..')
+    typeof client.nombre === 'string' && /^assets\/(?:clientes|uploads)\/[a-zA-Z0-9_./-]+\.(svg|png|webp|jpg)$/i.test(client.imagen || '') && !client.imagen.includes('..')
   ) : [];
   if (clients.length) {
     $$('.marquee-group').forEach((group, index) => {
@@ -51,6 +51,7 @@
     $$('.clients-title > span').forEach(el => el.textContent = 'CLIENTES');
     $$('.client-note').forEach(el => el.hidden = true);
   }
+  const measure = (name, detail = {}) => document.dispatchEvent(new CustomEvent('facai:measurement', { detail: { name, ...detail } }));
   const controllers = new WeakMap();
   const escapeFocus = el => { if (el) el.focus({ preventScroll: true }); };
   $$('[data-quote-form]').forEach(form => {
@@ -63,6 +64,7 @@
     const now = new Date();
     form.elements.fecha.min = [now.getFullYear(), String(now.getMonth() + 1).padStart(2, '0'), String(now.getDate()).padStart(2, '0')].join('-');
     function showStep(value, focus = true) {
+      if (focus) measure('quote_step', { step: value + 1 });
       step = value; result.hidden = true; actions.hidden = false;
       fields.forEach((field, index) => field.hidden = index !== step);
       progress.forEach((item, index) => {
@@ -82,6 +84,7 @@
       return true;
     }
     function prepare() {
+      measure('quote_prepared');
       const data = new FormData(form), value = key => String(data.get(key) || '').trim();
       const optional = (key, fallback = 'Por definir') => value(key) || fallback;
       const day = value('fecha'), formattedDate = day ? day.split('-').reverse().join('/') : 'Por definir';
@@ -114,6 +117,7 @@
   const dialog = $('.quote-dialog'), dialogForm = dialog && $('[data-quote-form]', dialog);
   function openQuote(seed = {}) {
     if (!dialog || typeof dialog.showModal !== 'function') return false;
+    measure('quote_start');
     controllers.get(dialogForm).seed(seed); closeMenu(); dialog.showModal();
     root.classList.add('quote-open'); document.body.classList.add('modal-open');
     escapeFocus(dialogForm.elements.servicio); return true;
