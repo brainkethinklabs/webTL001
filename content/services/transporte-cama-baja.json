@@ -1,0 +1,29 @@
+{
+  "page": "transporte-cama-baja.html",
+  "title": "Transporte en cama baja en Chile | FACAI",
+  "description": "Cotiza transporte en cama baja en Chile. Evaluamos maquinaria, dimensiones, accesos y ruta para configurar un traslado acorde a tu operación.",
+  "lead": "Una máquina detenida esperando traslado puede afectar una obra completa. La solución empieza por revisar cómo subirla, transportarla y recibirla en su destino.",
+  "summary": "Configuración para maquinaria y cargas exigentes, según la factibilidad de cada operación.",
+  "photos": [
+    {
+      "src": "assets/media/cama-baja-dimex-en-chile.webp",
+      "alt": "Camión Dimex que transporta maquinaria en una cama baja.",
+      "caption": "Cama baja Dimex"
+    },
+    {
+      "src": "assets/media/cama-baja-shacman-con-excavadora.webp",
+      "alt": "Camión Shacman blanco con excavadora sobre una cama baja.",
+      "caption": "Cama baja con excavadora"
+    },
+    {
+      "src": "assets/media/facai-23-ruta-atacama-excavadora-4ejes.webp",
+      "alt": "Camión con excavadora sobre cama baja recorriendo una carretera del norte.",
+      "caption": "Excavadora en ruta"
+    },
+    {
+      "src": "assets/media/facai-25-aerea-motoniveladora-4ejes.webp",
+      "alt": "Vista elevada de una motoniveladora transportada sobre cama baja.",
+      "caption": "Motoniveladora en ruta"
+    }
+  ]
+}

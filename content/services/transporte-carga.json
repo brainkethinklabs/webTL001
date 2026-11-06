@@ -1,0 +1,29 @@
+{
+  "page": "transporte-carga.html",
+  "title": "Transporte de carga nacional en Chile | FACAI",
+  "description": "Transporte de carga por carretera en Chile para materiales, mercadería y carga industrial. FACAI evalúa ruta, equipo y coordinación de cada traslado.",
+  "lead": "Cuando tu operación necesita mover materiales, no basta con encontrar un camión. Hay que coordinar el retiro, elegir el equipo y llegar a una instalación que esté lista para recibir.",
+  "summary": "Mercadería, insumos y carga industrial. Una solución coordinada de origen a destino.",
+  "photos": [
+    {
+      "src": "assets/media/camiones-de-carga-en-portillo.webp",
+      "alt": "Camiones en las curvas de una carretera de montaña con nieve.",
+      "caption": "Transporte en la cordillera"
+    },
+    {
+      "src": "assets/media/camiones-en-ruta-chile-chico.webp",
+      "alt": "Camiones circulando por un camino de montaña con curvas.",
+      "caption": "Conectividad por carretera"
+    },
+    {
+      "src": "assets/media/carga-especial-camino-a-cerro-pachon.webp",
+      "alt": "Camión con carga en un camino de montaña cercano a un observatorio.",
+      "caption": "Carga en ruta de montaña"
+    },
+    {
+      "src": "assets/media/facai-33-ruta5-tuberias-3ejes.webp",
+      "alt": "Camión de plataforma que transporta tuberías aseguradas en una carretera.",
+      "caption": "Transporte de tuberías"
+    }
+  ]
+}

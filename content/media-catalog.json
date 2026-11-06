@@ -1,0 +1,1007 @@
+[
+  {
+    "id": 1,
+    "salida": "assets/media/facai-04-plataforma-fibc-3ejes.webp",
+    "tipo": "foto",
+    "titulo": "Carga en sacos industriales",
+    "descripcion": "Camión con sacos industriales FIBC sobre plataforma junto a una zona de carga.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/facai-04-plataforma-fibc-3ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 2,
+    "salida": "assets/media/facai-06-plataforma-modular-recipiente-industrial.webp",
+    "tipo": "foto",
+    "titulo": "Recipiente industrial",
+    "descripcion": "Transporte de un recipiente industrial de gran tamaño sobre un equipo modular.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/facai-06-plataforma-modular-recipiente-industrial-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 3,
+    "salida": "assets/media/facai-12-cama-baja-perforadora-5ejes.webp",
+    "tipo": "foto",
+    "titulo": "Equipo de perforación",
+    "descripcion": "Equipo de perforación asegurado sobre una cama baja al atardecer.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/facai-12-cama-baja-perforadora-5ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 4,
+    "salida": "assets/media/m2-15-ibc-quimicos-plataforma.webp",
+    "tipo": "foto",
+    "titulo": "Contenedores IBC",
+    "descripcion": "Contenedores IBC estibados sobre un semirremolque de plataforma.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/m2-15-ibc-quimicos-plataforma-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 5,
+    "salida": "assets/media/m2-16-fibc-minerales-plataforma.webp",
+    "tipo": "foto",
+    "titulo": "Sacos FIBC",
+    "descripcion": "Transporte de sacos FIBC en una plataforma junto a instalaciones industriales.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/m2-16-fibc-minerales-plataforma-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 6,
+    "salida": "assets/media/m2-17-carga-fibc-marco-izaje.webp",
+    "tipo": "foto",
+    "titulo": "Carga de sacos industriales",
+    "descripcion": "Maniobra de carga de sacos FIBC con una grúa horquilla.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/m2-17-carga-fibc-marco-izaje-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 7,
+    "salida": "assets/media/m2-23-valvulas-industriales-skids.webp",
+    "tipo": "foto",
+    "titulo": "Válvulas industriales",
+    "descripcion": "Válvulas industriales sujetas en soportes sobre una plataforma.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/m2-23-valvulas-industriales-skids-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 8,
+    "salida": "assets/media/m2-24-intercambiador-calor-plataforma.webp",
+    "tipo": "foto",
+    "titulo": "Intercambiador de calor",
+    "descripcion": "Traslado de un equipo intercambiador de calor sobre una plataforma.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/m2-24-intercambiador-calor-plataforma-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 9,
+    "salida": "assets/media/m2-25-spools-tuberia-prefabricados.webp",
+    "tipo": "foto",
+    "titulo": "Tuberías prefabricadas",
+    "descripcion": "Conjuntos de tubería prefabricada asegurados sobre una plataforma.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/m2-25-spools-tuberia-prefabricados-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 10,
+    "salida": "assets/media/m2-30-grua-carga-bomba-industrial.webp",
+    "tipo": "foto",
+    "titulo": "Izaje de bomba industrial",
+    "descripcion": "Grúa móvil trabajando en el izaje de una bomba industrial junto a un camión.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "agua",
+    "miniatura": "assets/media/m2-30-grua-carga-bomba-industrial-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 11,
+    "salida": "assets/media/facai-08-plataforma-carretes-cable-4ejes.webp",
+    "tipo": "foto",
+    "titulo": "Carretes de cable",
+    "descripcion": "Carretes de cable asegurados sobre plataforma junto a líneas de transmisión.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/facai-08-plataforma-carretes-cable-4ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 12,
+    "salida": "assets/media/facai-24-ruta5-paneles-solares-3ejes.webp",
+    "tipo": "foto",
+    "titulo": "Paneles solares en ruta",
+    "descripcion": "Camión que transporta paneles solares embalados en una carretera.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 900
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/facai-24-ruta5-paneles-solares-3ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 405
+    }
+  },
+  {
+    "id": 13,
+    "salida": "assets/media/facai-32-izaje-carrete-cable-4ejes.webp",
+    "tipo": "foto",
+    "titulo": "Izaje de carrete",
+    "descripcion": "Maniobra de izaje de un carrete de cable hacia una plataforma.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/facai-32-izaje-carrete-cable-4ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 14,
+    "salida": "assets/media/m2-10-tramo-torre-eolica-modular.webp",
+    "tipo": "foto",
+    "titulo": "Sección de torre eólica",
+    "descripcion": "Transporte de una sección tubular de torre eólica sobre equipo modular.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/m2-10-tramo-torre-eolica-modular-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 15,
+    "salida": "assets/media/m2-11-nacelle-eolica-modular.webp",
+    "tipo": "foto",
+    "titulo": "Componente eólico",
+    "descripcion": "Camión con un componente eólico de gran tamaño en un camino de acceso.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/m2-11-nacelle-eolica-modular-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 16,
+    "salida": "assets/media/m2-13-transformador-puerto-modular.webp",
+    "tipo": "foto",
+    "titulo": "Transformador en puerto",
+    "descripcion": "Transformador transportado en equipo modular dentro de un recinto portuario.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/m2-13-transformador-puerto-modular-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 17,
+    "salida": "assets/media/m2-14-catodos-cobre-plataforma.webp",
+    "tipo": "foto",
+    "titulo": "Carga de cobre",
+    "descripcion": "Camión de plataforma con carga de cobre amarrada al atardecer.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/m2-14-catodos-cobre-plataforma-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 18,
+    "salida": "assets/media/m2-19-skids-inversores-plataforma.webp",
+    "tipo": "foto",
+    "titulo": "Equipos de energía",
+    "descripcion": "Equipos eléctricos en skids asegurados sobre un semirremolque.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/m2-19-skids-inversores-plataforma-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 19,
+    "salida": "assets/media/m2-22-carretes-cable-cunas.webp",
+    "tipo": "foto",
+    "titulo": "Carretes sobre cunas",
+    "descripcion": "Carretes de cable apoyados sobre cunas en una plataforma.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/m2-22-carretes-cable-cunas-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 20,
+    "salida": "assets/media/m2-29-grua-carga-generador-skid.webp",
+    "tipo": "foto",
+    "titulo": "Izaje de generador",
+    "descripcion": "Grúa cargando un generador en una plataforma junto a instalaciones industriales.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "energia",
+    "miniatura": "assets/media/m2-29-grua-carga-generador-skid-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 21,
+    "salida": "assets/media/facai-16-plataforma-cerchas-acero-4ejes.webp",
+    "tipo": "foto",
+    "titulo": "Estructuras de acero",
+    "descripcion": "Camión de plataforma con cerchas de acero frente a una instalación industrial.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "industria",
+    "miniatura": "assets/media/facai-16-plataforma-cerchas-acero-4ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 22,
+    "salida": "assets/media/facai-22-izaje-cercha-grua-5ejes.webp",
+    "tipo": "foto",
+    "titulo": "Izaje de estructura",
+    "descripcion": "Grúa móvil izando una cercha de acero sobre una plataforma con personal de apoyo.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "industria",
+    "miniatura": "assets/media/facai-22-izaje-cercha-grua-5ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 23,
+    "salida": "assets/media/m2-09-viga-puente-bolsters-dolly.webp",
+    "tipo": "foto",
+    "titulo": "Viga de gran longitud",
+    "descripcion": "Traslado de una viga de gran longitud mediante apoyos y dolly.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "industria",
+    "miniatura": "assets/media/m2-09-viga-puente-bolsters-dolly-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 24,
+    "salida": "assets/media/m2-12-recipiente-reactor-modular.webp",
+    "tipo": "foto",
+    "titulo": "Recipiente de proceso",
+    "descripcion": "Transporte de un recipiente industrial sobre equipo modular al atardecer.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "industria",
+    "miniatura": "assets/media/m2-12-recipiente-reactor-modular-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 25,
+    "salida": "assets/media/m2-20-gabinetes-bess-plataforma.webp",
+    "tipo": "foto",
+    "titulo": "Gabinetes de energía",
+    "descripcion": "Gabinetes eléctricos de almacenamiento de energía sobre plataforma.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "industria",
+    "miniatura": "assets/media/m2-20-gabinetes-bess-plataforma-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 26,
+    "salida": "assets/media/m2-21-bandejas-cables-plataforma.webp",
+    "tipo": "foto",
+    "titulo": "Bandejas para cables",
+    "descripcion": "Camión cargado con bandejas metálicas para canalización de cables.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "industria",
+    "miniatura": "assets/media/m2-21-bandejas-cables-plataforma-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 27,
+    "salida": "assets/media/m2-28-inspeccion-bobina-acero.webp",
+    "tipo": "foto",
+    "titulo": "Inspección de carga",
+    "descripcion": "Persona revisando los amarres de una bobina de acero sobre plataforma.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "industria",
+    "miniatura": "assets/media/m2-28-inspeccion-bobina-acero-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 28,
+    "salida": "assets/media/facai-01-cama-baja-excavadora-4ejes.webp",
+    "tipo": "foto",
+    "titulo": "Excavadora en cama baja",
+    "descripcion": "Excavadora sobre una cama baja con rampas en una zona de trabajo.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/facai-01-cama-baja-excavadora-4ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 29,
+    "salida": "assets/media/facai-05-cama-baja-cargador-frontal-3ejes.webp",
+    "tipo": "foto",
+    "titulo": "Cargador frontal",
+    "descripcion": "Cargador frontal asegurado sobre una cama baja.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/facai-05-cama-baja-cargador-frontal-3ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 30,
+    "salida": "assets/media/facai-09-cama-baja-bulldozer-rampas-5ejes.webp",
+    "tipo": "foto",
+    "titulo": "Bulldozer y rampas",
+    "descripcion": "Bulldozer sobre una cama baja con rampas desplegadas y personal de apoyo.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/facai-09-cama-baja-bulldozer-rampas-5ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 31,
+    "salida": "assets/media/facai-23-ruta-atacama-excavadora-4ejes.webp",
+    "tipo": "foto",
+    "titulo": "Excavadora en ruta",
+    "descripcion": "Camión con excavadora sobre cama baja recorriendo una carretera del norte.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/facai-23-ruta-atacama-excavadora-4ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 32,
+    "salida": "assets/media/facai-25-aerea-motoniveladora-4ejes.webp",
+    "tipo": "foto",
+    "titulo": "Motoniveladora en ruta",
+    "descripcion": "Vista elevada de una motoniveladora transportada sobre cama baja.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/facai-25-aerea-motoniveladora-4ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 33,
+    "salida": "assets/media/m2-01-lhd-cama-baja-calama.webp",
+    "tipo": "foto",
+    "titulo": "Equipo minero LHD",
+    "descripcion": "Cargador minero LHD sobre una cama baja en una zona árida.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/m2-01-lhd-cama-baja-calama-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 34,
+    "salida": "assets/media/m2-02-cuello-desmontable-cargador-frontal.webp",
+    "tipo": "foto",
+    "titulo": "Cama baja de cuello desmontable",
+    "descripcion": "Cargador frontal en una cama baja de cuello desmontable.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/m2-02-cuello-desmontable-cargador-frontal-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 35,
+    "salida": "assets/media/m2-04-pavimentadora-cama-baja.webp",
+    "tipo": "foto",
+    "titulo": "Pavimentadora",
+    "descripcion": "Pavimentadora transportada sobre una cama baja en una zona de obra.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/m2-04-pavimentadora-cama-baja-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 36,
+    "salida": "assets/media/m2-05-estabilizadora-suelos-cama-baja.webp",
+    "tipo": "foto",
+    "titulo": "Estabilizadora de suelos",
+    "descripcion": "Estabilizadora de suelos asegurada sobre una cama baja.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/m2-05-estabilizadora-suelos-cama-baja-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 37,
+    "salida": "assets/media/m2-06-base-grua-orugas-cama-baja.webp",
+    "tipo": "foto",
+    "titulo": "Base de grúa sobre orugas",
+    "descripcion": "Base de una grúa sobre orugas transportada en cama baja.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/m2-06-base-grua-orugas-cama-baja-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 38,
+    "salida": "assets/media/m2-07-plataforma-elevadora-cama-baja.webp",
+    "tipo": "foto",
+    "titulo": "Plataforma elevadora",
+    "descripcion": "Plataforma elevadora articulada transportada en una cama baja.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/m2-07-plataforma-elevadora-cama-baja-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 39,
+    "salida": "assets/media/m2-08-excavadora-martillo-cama-baja.webp",
+    "tipo": "foto",
+    "titulo": "Excavadora con martillo",
+    "descripcion": "Excavadora con accesorio de martillo transportada en cama baja.",
+    "dimensiones": {
+      "ancho": 1122,
+      "alto": 1402
+    },
+    "categoria": "maquinaria",
+    "miniatura": "assets/media/m2-08-excavadora-martillo-cama-baja-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 576,
+      "alto": 720
+    }
+  },
+  {
+    "id": 40,
+    "salida": "assets/media/cama-baja-dimex-en-chile.webp",
+    "tipo": "foto",
+    "titulo": "Cama baja Dimex",
+    "descripcion": "Camión Dimex que transporta maquinaria en una cama baja.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 1200
+    },
+    "categoria": "cama-baja",
+    "miniatura": "assets/media/cama-baja-dimex-en-chile-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 540
+    }
+  },
+  {
+    "id": 41,
+    "salida": "assets/media/cama-baja-shacman-con-excavadora.webp",
+    "tipo": "foto",
+    "titulo": "Cama baja con excavadora",
+    "descripcion": "Camión Shacman blanco con excavadora sobre una cama baja.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 1200
+    },
+    "categoria": "cama-baja",
+    "miniatura": "assets/media/cama-baja-shacman-con-excavadora-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 540
+    }
+  },
+  {
+    "id": 42,
+    "salida": "assets/media/camiones-de-carga-en-portillo.webp",
+    "tipo": "foto",
+    "titulo": "Transporte en la cordillera",
+    "descripcion": "Camiones en las curvas de una carretera de montaña con nieve.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 1067
+    },
+    "categoria": "carga-general",
+    "miniatura": "assets/media/camiones-de-carga-en-portillo-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 43,
+    "salida": "assets/media/camiones-en-ruta-chile-chico.webp",
+    "tipo": "foto",
+    "titulo": "Conectividad por carretera",
+    "descripcion": "Camiones circulando por un camino de montaña con curvas.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 1067
+    },
+    "categoria": "carga-general",
+    "miniatura": "assets/media/camiones-en-ruta-chile-chico-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 44,
+    "salida": "assets/media/carga-especial-camino-a-cerro-pachon.webp",
+    "tipo": "foto",
+    "titulo": "Carga en ruta de montaña",
+    "descripcion": "Camión con carga en un camino de montaña cercano a un observatorio.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 1067
+    },
+    "categoria": "carga-general",
+    "miniatura": "assets/media/carga-especial-camino-a-cerro-pachon-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 45,
+    "salida": "assets/media/facai-33-ruta5-tuberias-3ejes.webp",
+    "tipo": "foto",
+    "titulo": "Transporte de tuberías",
+    "descripcion": "Camión de plataforma que transporta tuberías aseguradas en una carretera.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 1024
+    },
+    "categoria": "carga-general",
+    "miniatura": "assets/media/facai-33-ruta5-tuberias-3ejes-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 46,
+    "salida": "assets/media/atacama-camion-minero-random-institute.webp",
+    "tipo": "foto",
+    "titulo": "Maquinaria minera",
+    "descripcion": "Camión minero de gran tamaño junto a un tractocamión en una zona desértica.",
+    "dimensiones": {
+      "ancho": 1067,
+      "alto": 1600
+    },
+    "categoria": "proyectos",
+    "miniatura": "assets/media/atacama-camion-minero-random-institute-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 480,
+      "alto": 720
+    }
+  },
+  {
+    "id": 47,
+    "salida": "assets/media/camion-tolva-en-camino-de-ripio.webp",
+    "tipo": "foto",
+    "titulo": "Transporte para obras",
+    "descripcion": "Camión tolva en un camino de ripio junto a una obra vial.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 1067
+    },
+    "categoria": "proyectos",
+    "miniatura": "assets/media/camion-tolva-en-camino-de-ripio-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 480
+    }
+  },
+  {
+    "id": 48,
+    "salida": "assets/media/camion-tolva-en-tierra-del-fuego.webp",
+    "tipo": "foto",
+    "titulo": "Apoyo a proyectos viales",
+    "descripcion": "Camión tolva trabajando en una obra vial de la zona austral.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 1200
+    },
+    "categoria": "proyectos",
+    "miniatura": "assets/media/camion-tolva-en-tierra-del-fuego-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 540
+    }
+  },
+  {
+    "id": 49,
+    "salida": "assets/clientes/scotta.png",
+    "tipo": "logo",
+    "titulo": "Scotta",
+    "descripcion": "Logo de Scotta.",
+    "dimensiones": {
+      "ancho": 1141,
+      "alto": 352
+    },
+    "categoria": "clientes",
+    "claseSugerida": "logo-transparent"
+  },
+  {
+    "id": 50,
+    "salida": "assets/clientes/biochem.jpg",
+    "tipo": "logo",
+    "titulo": "Biochem Technology",
+    "descripcion": "Logo de Biochem Technology.",
+    "dimensiones": {
+      "ancho": 200,
+      "alto": 200
+    },
+    "categoria": "clientes",
+    "claseSugerida": "logo-on-light"
+  },
+  {
+    "id": 51,
+    "salida": "assets/clientes/importadora-nunez.webp",
+    "tipo": "logo",
+    "titulo": "Importadora Núñez",
+    "descripcion": "Logo de Importadora Núñez.",
+    "dimensiones": {
+      "ancho": 474,
+      "alto": 474
+    },
+    "categoria": "clientes",
+    "claseSugerida": "logo-on-light"
+  },
+  {
+    "id": 52,
+    "salida": "assets/clientes/milesa.png",
+    "tipo": "logo",
+    "titulo": "Milesa",
+    "descripcion": "Logo de Milesa Hogar & Industrial.",
+    "dimensiones": {
+      "ancho": 686,
+      "alto": 251
+    },
+    "categoria": "clientes",
+    "claseSugerida": "logo-on-dark"
+  },
+  {
+    "id": 53,
+    "salida": "assets/clientes/simtech.png",
+    "tipo": "logo",
+    "titulo": "Simtech",
+    "descripcion": "Logo de Simtech con la frase Innovación y compromiso.",
+    "dimensiones": {
+      "ancho": 1753,
+      "alto": 1008
+    },
+    "categoria": "clientes",
+    "claseSugerida": "logo-transparent"
+  },
+  {
+    "id": 54,
+    "salida": "assets/clientes/ecosystem.png",
+    "tipo": "logo",
+    "titulo": "Ecosystem",
+    "descripcion": "Logo de Ecosystem.",
+    "dimensiones": {
+      "ancho": 828,
+      "alto": 223
+    },
+    "categoria": "clientes",
+    "claseSugerida": "logo-transparent"
+  },
+  {
+    "id": 55,
+    "salida": "assets/clientes/mathiesen.webp",
+    "tipo": "logo",
+    "titulo": "Mathiesen",
+    "descripcion": "Logo de Mathiesen.",
+    "dimensiones": {
+      "ancho": 528,
+      "alto": 111
+    },
+    "categoria": "clientes",
+    "claseSugerida": "logo-transparent"
+  },
+  {
+    "id": 56,
+    "salida": "assets/clientes/vantech.webp",
+    "tipo": "logo",
+    "titulo": "Vantech",
+    "descripcion": "Logo de Vantech.",
+    "dimensiones": {
+      "ancho": 1536,
+      "alto": 358
+    },
+    "categoria": "clientes",
+    "claseSugerida": "logo-transparent"
+  },
+  {
+    "id": 57,
+    "salida": "assets/media/cama-baja-mack-con-excavadora.webp",
+    "tipo": "foto",
+    "titulo": "Transporte de maquinaria",
+    "descripcion": "Camión Mack transportando una excavadora sobre cama baja.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 1200
+    },
+    "categoria": "maquinaria-equipos",
+    "miniatura": "assets/media/cama-baja-mack-con-excavadora-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 540
+    }
+  },
+  {
+    "id": 58,
+    "salida": "assets/media/valparaiso-buque-fabian-vallejos.webp",
+    "tipo": "foto",
+    "titulo": "Operación portuaria en Valparaíso",
+    "descripcion": "Buque portacontenedores y grúas del puerto de Valparaíso.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 900
+    },
+    "categoria": "puertos",
+    "miniatura": "assets/media/valparaiso-buque-fabian-vallejos-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 405
+    }
+  },
+  {
+    "id": 59,
+    "salida": "assets/media/valparaiso-ciudad-y-puerto-camilaignacia.webp",
+    "tipo": "foto",
+    "titulo": "Terminal de contenedores",
+    "descripcion": "Vista aérea de un terminal de contenedores y la ciudad de Valparaíso.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 900
+    },
+    "categoria": "puertos",
+    "miniatura": "assets/media/valparaiso-ciudad-y-puerto-camilaignacia-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 405
+    }
+  },
+  {
+    "id": 60,
+    "salida": "assets/media/valparaiso-puerto-aereo-david-vives.webp",
+    "tipo": "foto",
+    "titulo": "Puerto de Valparaíso",
+    "descripcion": "Grúas y contenedores de un terminal portuario vistos desde la ciudad.",
+    "dimensiones": {
+      "ancho": 1600,
+      "alto": 1198
+    },
+    "categoria": "puertos",
+    "miniatura": "assets/media/valparaiso-puerto-aereo-david-vives-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 720,
+      "alto": 539
+    }
+  },
+  {
+    "id": 61,
+    "salida": "assets/media/vina-del-mar-grua-portuaria-virggilio-schiappacasse.webp",
+    "tipo": "foto",
+    "titulo": "Infraestructura costera",
+    "descripcion": "Grúa metálica costera frente al mar, fotografiada en formato vertical.",
+    "dimensiones": {
+      "ancho": 1200,
+      "alto": 1600
+    },
+    "categoria": "puertos",
+    "miniatura": "assets/media/vina-del-mar-grua-portuaria-virggilio-schiappacasse-720.webp",
+    "dimensionesMiniatura": {
+      "ancho": 540,
+      "alto": 720
+    }
+  }
+]

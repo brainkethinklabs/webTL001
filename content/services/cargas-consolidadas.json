@@ -1,0 +1,24 @@
+{
+  "page": "cargas-consolidadas.html",
+  "title": "Transporte de cargas consolidadas en Chile | FACAI",
+  "description": "Consulta cargas consolidadas con FACAI en Chile. Evaluamos compatibilidad, ruta, volumen y fechas para envíos que no requieren un equipo completo.",
+  "lead": "Tu carga no siempre ocupa un camión completo. Eso no significa que deba quedar fuera de la planificación ni que cualquier viaje compartido sea adecuado.",
+  "summary": "Evaluamos cargas de menor volumen y alternativas de consolidación según ruta y disponibilidad.",
+  "photos": [
+    {
+      "src": "assets/media/facai-04-plataforma-fibc-3ejes.webp",
+      "alt": "Camión con sacos industriales FIBC sobre plataforma junto a una zona de carga.",
+      "caption": "Carga en sacos industriales"
+    },
+    {
+      "src": "assets/media/m2-15-ibc-quimicos-plataforma.webp",
+      "alt": "Contenedores IBC estibados sobre un semirremolque de plataforma.",
+      "caption": "Contenedores IBC"
+    },
+    {
+      "src": "assets/media/m2-16-fibc-minerales-plataforma.webp",
+      "alt": "Transporte de sacos FIBC en una plataforma junto a instalaciones industriales.",
+      "caption": "Sacos FIBC"
+    }
+  ]
+}

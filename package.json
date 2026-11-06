@@ -1,0 +1,16 @@
+{
+  "name": "facai-sitio-corporativo",
+  "version": "2.0.0",
+  "private": true,
+  "description": "FACAI — web corporativa estática, cotización WhatsApp y cobertura interactiva",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs && node scripts/check-map.mjs",
+    "build": "python scripts/compose.py && npm run check && node scripts/check-security.mjs && node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module"
+}

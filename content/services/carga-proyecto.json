@@ -1,0 +1,34 @@
+{
+  "page": "carga-proyecto.html",
+  "title": "Cargas sobredimensionadas y proyectos especiales en Chile | FACAI",
+  "description": "Evalúa transporte de cargas sobredimensionadas y proyectos especiales en Chile con FACAI: viabilidad, ruta, equipos y coordinación operacional.",
+  "lead": "Cuando la carga sale de lo habitual, improvisar la solución no es una opción. Primero hay que entender las restricciones y diseñar una operación viable.",
+  "summary": "Planificación y coordinación para cargas que requieren una solución particular.",
+  "photos": [
+    {
+      "src": "assets/media/atacama-camion-minero-random-institute.webp",
+      "alt": "Camión minero de gran tamaño junto a un tractocamión en una zona desértica.",
+      "caption": "Maquinaria minera"
+    },
+    {
+      "src": "assets/media/camion-tolva-en-camino-de-ripio.webp",
+      "alt": "Camión tolva en un camino de ripio junto a una obra vial.",
+      "caption": "Transporte para obras"
+    },
+    {
+      "src": "assets/media/camion-tolva-en-tierra-del-fuego.webp",
+      "alt": "Camión tolva trabajando en una obra vial de la zona austral.",
+      "caption": "Apoyo a proyectos viales"
+    },
+    {
+      "src": "assets/media/facai-06-plataforma-modular-recipiente-industrial.webp",
+      "alt": "Transporte de un recipiente industrial de gran tamaño sobre un equipo modular.",
+      "caption": "Recipiente industrial"
+    },
+    {
+      "src": "assets/media/m2-10-tramo-torre-eolica-modular.webp",
+      "alt": "Transporte de una sección tubular de torre eólica sobre equipo modular.",
+      "caption": "Sección de torre eólica"
+    }
+  ]
+}

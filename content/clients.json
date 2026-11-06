@@ -1,0 +1,44 @@
+{
+  "clients": [
+    {
+      "nombre": "Scotta",
+      "imagen": "assets/clientes/scotta.png",
+      "clase": "logo-transparent"
+    },
+    {
+      "nombre": "Biochem Technology",
+      "imagen": "assets/clientes/biochem-transparent-v3.webp",
+      "clase": "logo-transparent logo-biochem"
+    },
+    {
+      "nombre": "Importadora Núñez",
+      "imagen": "assets/clientes/importadora-nunez-transparent-v3.webp",
+      "clase": "logo-transparent"
+    },
+    {
+      "nombre": "Milesa",
+      "imagen": "assets/clientes/milesa-transparent-v3.webp",
+      "clase": "logo-transparent"
+    },
+    {
+      "nombre": "Simtech",
+      "imagen": "assets/clientes/simtech.png",
+      "clase": "logo-transparent"
+    },
+    {
+      "nombre": "Ecosystem",
+      "imagen": "assets/clientes/ecosystem.png",
+      "clase": "logo-transparent"
+    },
+    {
+      "nombre": "Mathiesen",
+      "imagen": "assets/clientes/mathiesen.webp",
+      "clase": "logo-transparent"
+    },
+    {
+      "nombre": "Vantech",
+      "imagen": "assets/clientes/vantech.webp",
+      "clase": "logo-transparent"
+    }
+  ]
+}

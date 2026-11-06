@@ -1,0 +1,29 @@
+{
+  "page": "transporte-maquinaria.html",
+  "title": "Transporte de maquinaria y equipos en Chile | FACAI",
+  "description": "Traslado de maquinaria y equipos industriales en Chile. FACAI coordina evaluación, equipo de transporte, retiro y entrega según cada proyecto.",
+  "lead": "Mover un equipo industrial conecta dos momentos críticos: que esté disponible para retirar y que su destino pueda recibirlo. Coordinarlos es parte del traslado.",
+  "summary": "Traslados para industria y construcción, con evaluación de dimensiones, accesos y equipos.",
+  "photos": [
+    {
+      "src": "assets/media/cama-baja-mack-con-excavadora.webp",
+      "alt": "Camión Mack transportando una excavadora sobre cama baja.",
+      "caption": "Transporte de maquinaria"
+    },
+    {
+      "src": "assets/media/facai-01-cama-baja-excavadora-4ejes.webp",
+      "alt": "Excavadora sobre una cama baja con rampas en una zona de trabajo.",
+      "caption": "Excavadora en cama baja"
+    },
+    {
+      "src": "assets/media/facai-05-cama-baja-cargador-frontal-3ejes.webp",
+      "alt": "Cargador frontal asegurado sobre una cama baja.",
+      "caption": "Cargador frontal"
+    },
+    {
+      "src": "assets/media/facai-09-cama-baja-bulldozer-rampas-5ejes.webp",
+      "alt": "Bulldozer sobre una cama baja con rampas desplegadas y personal de apoyo.",
+      "caption": "Bulldozer y rampas"
+    }
+  ]
+}

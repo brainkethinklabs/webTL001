@@ -1,0 +1,29 @@
+{
+  "page": "transporte-puertos.html",
+  "title": "Transporte desde puertos en Chile | FACAI",
+  "description": "Coordinación de transporte terrestre desde puertos en Chile. FACAI evalúa retiro, carga, documentación operativa y entrega en el destino acordado.",
+  "lead": "Una carga disponible en puerto necesita más que un destino. Hay que alinear el retiro, la documentación y las condiciones de recepción para coordinar su tramo terrestre.",
+  "summary": "Coordinación terrestre entre terminales, instalaciones industriales y el destino de tu carga.",
+  "photos": [
+    {
+      "src": "assets/media/valparaiso-buque-fabian-vallejos.webp",
+      "alt": "Buque portacontenedores y grúas del puerto de Valparaíso.",
+      "caption": "Operación portuaria en Valparaíso"
+    },
+    {
+      "src": "assets/media/valparaiso-ciudad-y-puerto-camilaignacia.webp",
+      "alt": "Vista aérea de un terminal de contenedores y la ciudad de Valparaíso.",
+      "caption": "Terminal de contenedores"
+    },
+    {
+      "src": "assets/media/valparaiso-puerto-aereo-david-vives.webp",
+      "alt": "Grúas y contenedores de un terminal portuario vistos desde la ciudad.",
+      "caption": "Puerto de Valparaíso"
+    },
+    {
+      "src": "assets/media/vina-del-mar-grua-portuaria-virggilio-schiappacasse.webp",
+      "alt": "Grúa metálica costera frente al mar, fotografiada en formato vertical.",
+      "caption": "Infraestructura costera"
+    }
+  ]
+}
