@@ -18,14 +18,112 @@ content:
       - {name: lead, label: Introducción, type: text, required: true}
       - {name: hero, label: Fotografía principal, type: image, required: true}
       - {name: heroAlt, label: Descripción accesible de la foto, type: string, required: true}
-  - name: services
-    label: Servicios y galerías
-    type: collection
-    path: content/services
+  - name: transporte-carga
+    label: Carga general · galería
+    type: file
+    path: content/services/transporte-carga.json
     format: json
-    subfolders: false
     operations: {create: false, rename: false, delete: false}
-    view: {primary: title}
+    fields:
+      - {name: page, label: Página, type: string, readonly: true}
+      - {name: title, label: Título SEO, type: string, required: true}
+      - {name: description, label: Descripción SEO, type: text, required: true}
+      - {name: lead, label: Introducción del servicio, type: text, required: true}
+      - {name: summary, label: Resumen en portada, type: text, required: true}
+      - name: photos
+        label: Fotografías de la galería
+        type: object
+        list: true
+        fields:
+          - {name: src, label: Imagen, type: image, required: true}
+          - {name: alt, label: Descripción accesible, type: string, required: true}
+          - {name: caption, label: Pie de foto, type: string, required: true}
+  - name: transporte-maquinaria
+    label: Maquinaria · galería
+    type: file
+    path: content/services/transporte-maquinaria.json
+    format: json
+    operations: {create: false, rename: false, delete: false}
+    fields:
+      - {name: page, label: Página, type: string, readonly: true}
+      - {name: title, label: Título SEO, type: string, required: true}
+      - {name: description, label: Descripción SEO, type: text, required: true}
+      - {name: lead, label: Introducción del servicio, type: text, required: true}
+      - {name: summary, label: Resumen en portada, type: text, required: true}
+      - name: photos
+        label: Fotografías de la galería
+        type: object
+        list: true
+        fields:
+          - {name: src, label: Imagen, type: image, required: true}
+          - {name: alt, label: Descripción accesible, type: string, required: true}
+          - {name: caption, label: Pie de foto, type: string, required: true}
+  - name: transporte-cama-baja
+    label: Cama baja · galería
+    type: file
+    path: content/services/transporte-cama-baja.json
+    format: json
+    operations: {create: false, rename: false, delete: false}
+    fields:
+      - {name: page, label: Página, type: string, readonly: true}
+      - {name: title, label: Título SEO, type: string, required: true}
+      - {name: description, label: Descripción SEO, type: text, required: true}
+      - {name: lead, label: Introducción del servicio, type: text, required: true}
+      - {name: summary, label: Resumen en portada, type: text, required: true}
+      - name: photos
+        label: Fotografías de la galería
+        type: object
+        list: true
+        fields:
+          - {name: src, label: Imagen, type: image, required: true}
+          - {name: alt, label: Descripción accesible, type: string, required: true}
+          - {name: caption, label: Pie de foto, type: string, required: true}
+  - name: carga-proyecto
+    label: Carga de proyecto · galería
+    type: file
+    path: content/services/carga-proyecto.json
+    format: json
+    operations: {create: false, rename: false, delete: false}
+    fields:
+      - {name: page, label: Página, type: string, readonly: true}
+      - {name: title, label: Título SEO, type: string, required: true}
+      - {name: description, label: Descripción SEO, type: text, required: true}
+      - {name: lead, label: Introducción del servicio, type: text, required: true}
+      - {name: summary, label: Resumen en portada, type: text, required: true}
+      - name: photos
+        label: Fotografías de la galería
+        type: object
+        list: true
+        fields:
+          - {name: src, label: Imagen, type: image, required: true}
+          - {name: alt, label: Descripción accesible, type: string, required: true}
+          - {name: caption, label: Pie de foto, type: string, required: true}
+  - name: transporte-puertos
+    label: Puertos · galería
+    type: file
+    path: content/services/transporte-puertos.json
+    format: json
+    operations: {create: false, rename: false, delete: false}
+    fields:
+      - {name: page, label: Página, type: string, readonly: true}
+      - {name: title, label: Título SEO, type: string, required: true}
+      - {name: description, label: Descripción SEO, type: text, required: true}
+      - {name: lead, label: Introducción del servicio, type: text, required: true}
+      - {name: summary, label: Resumen en portada, type: text, required: true}
+      - name: photos
+        label: Fotografías de la galería
+        type: object
+        list: true
+        fields:
+          - {name: src, label: Imagen, type: image, required: true}
+          - {name: alt, label: Descripción accesible, type: string, required: true}
+          - {name: caption, label: Pie de foto, type: string, required: true}
+  - name: cargas-consolidadas
+    label: Cargas consolidadas · galería
+    type: file
+    path: content/services/cargas-consolidadas.json
+    format: json
+    operations: {create: false, rename: false, delete: false}
     fields:
       - {name: page, label: Página, type: string, readonly: true}
       - {name: title, label: Título SEO, type: string, required: true}
