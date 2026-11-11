@@ -9,6 +9,19 @@
   let choice = null;
   try { choice = localStorage.getItem(key); } catch {}
   const cleanPage = document.querySelector('link[rel="canonical"]')?.href || location.origin + location.pathname;
+  // Recognize only FACAI's public campaign vocabulary; never forward arbitrary queries.
+  const campaign = {};
+  const params = new URLSearchParams(location.search);
+  const sources = { linkedin: 'organic_social', instagram: 'organic_social', google: 'organic', firma: 'email', presentacion: 'referral' };
+  const source = params.get('utm_source');
+  const medium = params.get('utm_medium');
+  const name = params.get('utm_campaign');
+  if (Object.hasOwn(sources, source) && sources[source] === medium && ['posicionamiento_facai', 'guia_transporte', 'casos_facai'].includes(name)) {
+    campaign.campaign_source = source;
+    campaign.campaign_medium = medium;
+    campaign.campaign_name = name;
+    if (['perfil', 'publicacion', 'historia', 'firma', 'qr'].includes(params.get('utm_content'))) campaign.campaign_content = params.get('utm_content');
+  }
   let referrer = '';
   try { referrer = new URL(document.referrer).origin; } catch {}
   window.dataLayer = window.dataLayer || [];
@@ -22,7 +35,7 @@
     loaded = true;
     tag('consent', 'update', { analytics_storage: 'granted' });
     tag('js', new Date());
-    tag('config', id, { send_page_view: false, allow_google_signals: false, allow_ad_personalization_signals: false, page_location: cleanPage, page_referrer: referrer });
+    tag('config', id, { send_page_view: false, allow_google_signals: false, allow_ad_personalization_signals: false, page_location: cleanPage, page_referrer: referrer, ...campaign });
     tag('event', 'page_view', { page_location: cleanPage, page_referrer: referrer, page_title: document.title });
     const script = document.createElement('script');
     script.async = true;
