@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
+import './check-analytics.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const pages = fs.readdirSync(root).filter(name => name.endsWith('.html'));
 const errors = [], results = [], titles = new Set();
